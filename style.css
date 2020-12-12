@@ -1,0 +1,271 @@
+html{
+    background-color: #131618;
+}
+
+#topbox{
+    padding: 0.5rem;
+    color: #54fdae;
+    font-size: 6rem;
+    font-family: Audiowide, serif;
+    display: flex;
+    justify-content: center;
+}
+
+#timeandday{
+    background-color: #1b1e22;
+    z-index: 2;
+    position: absolute;
+    top: 22.5vh;
+    left: 30%;
+    width: 40%;
+    height: 4rem;
+    font-size: 3rem;
+    color: #51b184;
+    font-family: Audiowide, serif;
+    border-style: solid;
+    border-color: #7dff7d1e;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+#hour{
+    display: flex;
+    position: absolute;
+    left: 35rem;
+}
+
+#separator{
+    position: absolute;
+    left: 40rem;
+}
+
+#minutes{
+    position: absolute;
+    left: 42rem;
+}
+
+#month{
+    position: absolute;
+    left: 1.5rem;
+}
+
+#day{
+    position: absolute;
+    left: 9.5rem;
+}
+
+.clockicon{
+    position: absolute;
+    z-index: 3;
+    top: 15rem;
+    left: 64rem;
+    font-size: 2rem;
+    color: #54fdae;
+}
+
+.calendar{
+    position: absolute;
+    z-index: 3;
+    top: 15rem;
+    left: 53rem;
+    font-size: 2rem;
+    color: #54fdae; 
+}
+
+.youtube{
+    position: absolute;
+    top: 25rem;
+    left: 16rem;
+    font-size:4rem;
+    padding: 2.5rem;
+    width: 15rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #54fdae3b;
+}
+
+.youtube:hover{
+    color: #54fdae;
+    animation: rise 0.25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+
+.amazon{
+    position: absolute;
+    top: 12rem;
+    left: 16rem;
+    font-size: 4rem;
+    padding: 2.5rem;
+    width: 15rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #54fdae3b;
+}
+
+.amazon:hover{
+    color: #54fdae;
+    animation: rise 0.25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.instagram{
+    position: absolute;
+    top: 18.5rem;
+    left: 16rem;
+    font-size: 4rem;
+    padding: 2.5rem;
+    width: 15rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #54fdae3b;
+}
+
+.instagram:hover{
+    color: #54fdae;
+    animation: rise 0.25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.github{
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    font-size: 4rem;
+    padding: 2.5rem;
+    width: 15rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #54fdae3b;
+}
+
+.github:hover{
+    color: #54fdae;
+    animation: rise 0.25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.wemail{
+    position: absolute;
+    top: 18.5rem;
+    left: 2rem;
+    font-size: 4rem;
+    padding: 2.5rem;
+    width: 15rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #54fdae3b;
+}
+
+.wemail:hover{
+    color: #54fdae;
+    animation: rise 0.25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.gclass{
+    position: absolute;
+    top: 25rem;
+    left: 2rem;
+    font-size: 4rem;
+    padding: 2.5rem;
+    width: 15rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #54fdae3b;
+}
+
+.gclass  :hover{
+    color: #54fdae;
+    animation: rise 0.25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rise {
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+#headertodo{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-family: Audiowide, serif;
+}
+
+#todolist{
+    color: #54fdae;
+    position: absolute;
+    top: 20rem;
+    left: 65rem;
+    font-family: Ubuntu, serif;
+}
+
+#input{
+    background-color: #54fdae10;
+    border-color: #000;
+    color: blanchedalmond;
+    width: 40rem;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-family: Ubuntu, serif;
+}
+
+#parentdolist{
+    position: absolute;
+    top: 34rem;
+    left: 63rem;
+    font-family: Audiowide, serif;
+}
+
+ul li{
+    color: #54fdae;
+    cursor: pointer;
+    position: relative;
+    font-size: 2rem;
+    list-style: none;
+    transition: 0.2s;
+    left: 16px;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #54fdae;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: -20px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+.addBtn{
+    font-size: 3rem;
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+}
