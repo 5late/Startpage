@@ -1,7 +1,7 @@
 var today = new Date();
 var hour = today.getHours();
 
-var name = 'Christian'
+var name = 'John Doe'
 
 var sleepGreet = 'Time for Bed '
 var morningGreet = 'Good Morning '
