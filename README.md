@@ -6,11 +6,11 @@
 
 **Hearth Red**
 
-![Screenshot](imgs/hearthred)
+![Screenshot](imgs/hearthred.png)
 
 **Ice Blue**
 
-![Screenshot](imgs/iceblue)
+![Screenshot](imgs/iceblue.png)
 
 
 **Features** 
