@@ -4,7 +4,7 @@ html{
 
 #topbox{
     padding: 0.5rem;
-    color: #4374e9;
+    color: #dd4d4d;
     font-size: 6rem;
     font-family: Audiowide, serif;
     display: flex;
@@ -12,7 +12,7 @@ html{
 }
 
 #timeandday{
-    background-color: #1b1e22;
+    background-color: #2c1a1a3a;
     z-index: 2;
     position: absolute;
     top: 22.5vh;
@@ -20,10 +20,10 @@ html{
     width: 40%;
     height: 4rem;
     font-size: 3rem;
-    color: #4374e9;
+    color: #dd4d4d;
     font-family: Audiowide, serif;
     border-style: solid;
-    border-color: #4375e93a;
+    border-color: #dd4d4d3a;
     border-width: 3px;
     border-radius: 20px;
 }
@@ -60,7 +60,7 @@ html{
     top: 15rem;
     left: 64rem;
     font-size: 2rem;
-    color: #4374e9;
+    color: #dd4d4d;
 }
 
 .calendar{
@@ -69,7 +69,7 @@ html{
     top: 15rem;
     left: 53rem;
     font-size: 2rem;
-    color: #4374e9; 
+    color: #dd4d4d; 
 }
 
 .youtube{
@@ -83,11 +83,11 @@ html{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: #4375e93a;
+    color: #dd4d4d3a;
 }
 
 .youtube:hover{
-    color: #4374e9;
+    color: #dd4d4d;
     animation: rise 0.25s ease-in;
     animation-fill-mode: forwards;
 }
@@ -104,11 +104,11 @@ html{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: #4375e93a;
+    color: #dd4d4d3a;
 }
 
 .amazon:hover{
-    color: #4374e9;
+    color: #dd4d4d;
     animation: rise 0.25s ease-in;
     animation-fill-mode: forwards;
 }
@@ -124,11 +124,11 @@ html{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: #4375e93a;
+    color: #dd4d4d3a;
 }
 
 .instagram:hover{
-    color: #4374e9;
+    color: #dd4d4d;
     animation: rise 0.25s ease-in;
     animation-fill-mode: forwards;
 }
@@ -144,11 +144,11 @@ html{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: #4375e93a;
+    color: #dd4d4d3a;
 }
 
 .github:hover{
-    color: #4374e9;
+    color: #dd4d4d;
     animation: rise 0.25s ease-in;
     animation-fill-mode: forwards;
 }
@@ -164,11 +164,11 @@ html{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: #4375e93a;
+    color: #dd4d4d3a;
 }
 
 .wemail:hover{
-    color: #4374e9;
+    color: #dd4d4d;
     animation: rise 0.25s ease-in;
     animation-fill-mode: forwards;
 }
@@ -184,11 +184,11 @@ html{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: #4375e93a;
+    color: #dd4d4d3a;
 }
 
 .gclass  :hover{
-    color: #4374e9;
+    color: #dd4d4d;
     animation: rise 0.25s ease-in;
     animation-fill-mode: forwards;
 }
@@ -211,7 +211,7 @@ html{
 }
 
 #todolist{
-    color: #4375e9;
+    color: #dd4d4d;
     position: absolute;
     top: 20rem;
     left: 65rem;
@@ -219,7 +219,7 @@ html{
 }
 
 #input{
-    background-color: #4375e917;
+    background-color: #dd4d4d18;
     border-color: #000;
     color: blanchedalmond;
     width: 40rem;
@@ -237,7 +237,7 @@ html{
 }
 
 ul li{
-    color: #4375e9;
+    color: #dd4d4d;
     cursor: pointer;
     position: relative;
     font-size: 2rem;
@@ -253,7 +253,7 @@ ul li.checked{
 ul li.checked::before {
     content: '';
     position: absolute;
-    border-color: #4375e9;
+    border-color: #dd4d4d;
     border-style: solid;
     border-width: 0 2px 2px 0;
     top: 10px;
