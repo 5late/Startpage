@@ -74,8 +74,8 @@ html{
 
 .youtube{
     position: absolute;
-    top: 25rem;
-    left: 16rem;
+    top: 24rem;
+    left: 30rem;
     font-size:4rem;
     padding: 2.5rem;
     width: 15rem;
@@ -95,8 +95,8 @@ html{
 
 .amazon{
     position: absolute;
-    top: 12rem;
-    left: 16rem;
+    top: 37rem;
+    left: 30rem;
     font-size: 4rem;
     padding: 2.5rem;
     width: 15rem;
@@ -115,8 +115,8 @@ html{
 
 .instagram{
     position: absolute;
-    top: 18.5rem;
-    left: 16rem;
+    top: 50rem;
+    left: 30rem;
     font-size: 4rem;
     padding: 2.5rem;
     width: 15rem;
@@ -135,8 +135,8 @@ html{
 
 .github{
     position: absolute;
-    top: 12rem;
-    left: 2rem;
+    top: 24rem;
+    left: 4rem;
     font-size: 4rem;
     padding: 2.5rem;
     width: 15rem;
@@ -155,8 +155,8 @@ html{
 
 .wemail{
     position: absolute;
-    top: 18.5rem;
-    left: 2rem;
+    top: 37rem;
+    left: 4rem;
     font-size: 4rem;
     padding: 2.5rem;
     width: 15rem;
@@ -175,8 +175,8 @@ html{
 
 .gclass{
     position: absolute;
-    top: 25rem;
-    left: 2rem;
+    top: 50rem;
+    left: 4rem;
     font-size: 4rem;
     padding: 2.5rem;
     width: 15rem;
