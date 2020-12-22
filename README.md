@@ -1,6 +1,17 @@
 # Startpage by 5late
 
+
+**Mint Green**
+
 ![Screenshot](imgs/fullview.png)
+
+**Hearth Red**
+
+![Screenshot](imgs/hearthred.png)
+
+**Ice Blue**
+
+![Screenshot](imgs/iceblue.png)
 
 **Features** 
 
