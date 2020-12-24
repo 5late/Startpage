@@ -24,3 +24,10 @@ The second is a hyperlink/icon group which can be used to provide easy access to
 
 The final feature is a todo list. The todo list can be used to document quick things that need to be taken care off, and finished items can be marked as *done* . Items can also be removed at any time.
 
+
+**INSTRUCTIONS**
+
+To download the start page for yourself, click the following link and view the Quick Guide.
+
+https://drive.google.com/file/d/1UQjsy1nHaSbdf50WKyS3YArMixXVM1lc/view?usp=sharing
+
